@@ -11,11 +11,24 @@
 		</style>
 	</head>
 	<body>
-		<script src="../build/stats.min.js"></script>
+		<script src="../build/stats.js"></script>
 		<script>
 
-			var stats = new Stats();
-			stats.showPanel( 1 );
+			var stats = new Stats({
+				mb: {
+					fg: '#fff',
+					bg: '#000'
+				},
+				ms: {
+					fg: '#B00B1E',
+					bg: '#c86814'
+				},
+				fps: {
+					fg: '#eb8c39',
+					bg: '#5d2309'
+				}
+			});
+			stats.showPanel( 0 );
 			document.body.appendChild( stats.dom );
 
 			var canvas = document.createElement( 'canvas' );

@@ -10,6 +10,8 @@ This class provides a simple info box that will help you monitor your code perfo
 * **MB** MBytes of allocated memory. (Run Chrome with `--enable-precise-memory-info`)
 * **CUSTOM** User-defined panel support.
 
+Modified to allow config of base panel colors
+
 
 ### Screenshots ###
 
